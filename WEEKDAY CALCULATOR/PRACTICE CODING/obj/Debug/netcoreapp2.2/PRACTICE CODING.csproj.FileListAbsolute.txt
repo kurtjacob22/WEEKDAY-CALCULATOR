@@ -1,0 +1,22 @@
+C:\Users\Katalino\source\repos\PRACTICE CODING\PRACTICE CODING\bin\Debug\netcoreapp2.2\PRACTICE CODING.deps.json
+C:\Users\Katalino\source\repos\PRACTICE CODING\PRACTICE CODING\bin\Debug\netcoreapp2.2\PRACTICE CODING.runtimeconfig.json
+C:\Users\Katalino\source\repos\PRACTICE CODING\PRACTICE CODING\bin\Debug\netcoreapp2.2\PRACTICE CODING.runtimeconfig.dev.json
+C:\Users\Katalino\source\repos\PRACTICE CODING\PRACTICE CODING\bin\Debug\netcoreapp2.2\PRACTICE CODING.dll
+C:\Users\Katalino\source\repos\PRACTICE CODING\PRACTICE CODING\bin\Debug\netcoreapp2.2\PRACTICE CODING.pdb
+C:\Users\Katalino\source\repos\PRACTICE CODING\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.csprojAssemblyReference.cache
+C:\Users\Katalino\source\repos\PRACTICE CODING\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.csproj.CoreCompileInputs.cache
+C:\Users\Katalino\source\repos\PRACTICE CODING\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.AssemblyInfoInputs.cache
+C:\Users\Katalino\source\repos\PRACTICE CODING\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.AssemblyInfo.cs
+C:\Users\Katalino\source\repos\PRACTICE CODING\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.dll
+C:\Users\Katalino\source\repos\PRACTICE CODING\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.pdb
+D:\Desktop\C#\SUMMER PROJECT\WEEKDAY CALCULATOR\PRACTICE CODING\bin\Debug\netcoreapp2.2\PRACTICE CODING.deps.json
+D:\Desktop\C#\SUMMER PROJECT\WEEKDAY CALCULATOR\PRACTICE CODING\bin\Debug\netcoreapp2.2\PRACTICE CODING.runtimeconfig.json
+D:\Desktop\C#\SUMMER PROJECT\WEEKDAY CALCULATOR\PRACTICE CODING\bin\Debug\netcoreapp2.2\PRACTICE CODING.runtimeconfig.dev.json
+D:\Desktop\C#\SUMMER PROJECT\WEEKDAY CALCULATOR\PRACTICE CODING\bin\Debug\netcoreapp2.2\PRACTICE CODING.dll
+D:\Desktop\C#\SUMMER PROJECT\WEEKDAY CALCULATOR\PRACTICE CODING\bin\Debug\netcoreapp2.2\PRACTICE CODING.pdb
+D:\Desktop\C#\SUMMER PROJECT\WEEKDAY CALCULATOR\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.csprojAssemblyReference.cache
+D:\Desktop\C#\SUMMER PROJECT\WEEKDAY CALCULATOR\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.csproj.CoreCompileInputs.cache
+D:\Desktop\C#\SUMMER PROJECT\WEEKDAY CALCULATOR\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.AssemblyInfoInputs.cache
+D:\Desktop\C#\SUMMER PROJECT\WEEKDAY CALCULATOR\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.AssemblyInfo.cs
+D:\Desktop\C#\SUMMER PROJECT\WEEKDAY CALCULATOR\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.dll
+D:\Desktop\C#\SUMMER PROJECT\WEEKDAY CALCULATOR\PRACTICE CODING\obj\Debug\netcoreapp2.2\PRACTICE CODING.pdb
