@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-
+//Zeller's Rule
 namespace PRACTICE_CODING
 {
     class Program
@@ -81,29 +81,53 @@ namespace PRACTICE_CODING
             int last2DigitYearConverted = Int32.Parse(last2DigitYear);
             int first2DigitYearConverted = Int32.Parse(first2DigitYear);
 
-            last2DigitYearConverted = Last2DIGIT(last2DigitYearConverted, monthConverted);
+           
+            last2DigitYearConverted = Last2DIGIT(last2DigitYearConverted, monthConverted, first2DigitYearConverted);
             monthConverted = MonthConvertion(monthConverted);
-
             Console.WriteLine(dayGenerator(dayConverted, monthConverted, first2DigitYearConverted, last2DigitYearConverted));
+
 
             Console.ReadKey();
         }
+        
 
         public static string dayGenerator(int day, int month, int first2digit, int last2digit) {
 
             double result = 0;
+            //Zeller's formula
             //k + [(13 * m - 1) / 5] + D + [D / 4] + [C / 4] - 2 * C
+
             result = day + ((13 * month - 1) / 5) + last2digit + (last2digit / 4) + (first2digit / 4) - 2 * first2digit;
-            double dayoftheweek = result % 7;
-            string weekday;
-            if (dayoftheweek == 0)
+            double dayoftheweek = 0;
+            string weekday;//container for the weekdays
+            int[] multiplesOf7 = new int[] {
+                -7,-14,-21,-28,-35,-42,-49,-56,-63,-70,-77,-84,-91,-98,-105,-112,-119,-126,-133,-140
+            };
+            if (result < 0){
+                int i = 0;
+                while (i < multiplesOf7.Length) {
+
+                    if (result > multiplesOf7[i]) {
+                        dayoftheweek = result - multiplesOf7[i];
+                        break;
+                    }
+                    i++;
+                }  
+            }
+            else if(result > 0 || result == 0){
+                dayoftheweek = result % 7;
+            }
+
+            dayoftheweek = Math.Abs(dayoftheweek);
+
+            if (dayoftheweek == 0 || dayoftheweek == 7)
             {
-                weekday = "sunday";
+                weekday = "Sunday";
                 return weekday;
             }
             else if (dayoftheweek == 1)
             {
-                weekday = "monday";
+                weekday = "Monday";
                 return weekday;
             }
             else if (dayoftheweek == 2)
@@ -135,10 +159,12 @@ namespace PRACTICE_CODING
                 weekday = "Invalid";
                 return weekday;
             }
+
         }
-        public static int Last2DIGIT(int last2digits, int monthNum) {
+        public static int Last2DIGIT(int last2digits, int monthNum, int first2digits) {
 
             int year;
+            
             if (monthNum == 1 || monthNum == 2)
             {
                 year = last2digits - 1;
@@ -148,10 +174,7 @@ namespace PRACTICE_CODING
                 year = last2digits;
                 return year;
             }
-            
-            
-            
-            
+
         }
         public static int MonthConvertion(int monthNum){
 
